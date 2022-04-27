@@ -1,0 +1,80 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #B5605C;
+    margin: 0;
+    color: white;
+    
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+}
+h1, h2, p {
+    padding: 0.5% 1%;
+}
+img{
+    width: 300px;
+    height: auto;
+    margin: 0.5%;
+}
+a{
+    color: #B5605C;
+}
+span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+
+}
+/* nav section */
+nav{
+    background-color: #473321;
+    padding: 2% 0.5%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    nav ul{
+        flex-direction: column;
+       
+    }
+    ul li{
+        display: flex;
+        align-items:stretch;
+        justify-content: center;
+        margin: 3%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        margin: 0.5%;
+    }
+}
+header{
+    background-color: #FBB574;
+    padding: 2% 1%;
+    margin: 10% 0;
+    color:#B5605C;
+}
+
+.quote{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    
+}
+.quote-section{
+    background-color: #473321;
+    padding: 1% 0.5%;
+    margin: 1% 0;
+    width: 100%;
+}
